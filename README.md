@@ -5,6 +5,8 @@ Stroke forecasting and LLM-generated tactical advice from badminton singles matc
 > Final project for the Deep Learning course (NYCU, Fall 2026).
 > This is an independent student project and is **not affiliated with** the ShuttleSet / ShuttleNet authors.
 
+> 🚧 **Work in progress** — forecasting experiments are done; LLM advice and the demo app are in progress. Final results by Dec 14, 2026.
+
 <!-- TODO: demo GIF or screenshot of the app (draw your own court; no broadcast frames) -->
 
 ## Overview
@@ -19,24 +21,37 @@ Given the strokes played so far in a rally, the system
 | --- | --- |
 | Baselines | Most-frequent shot, first-order Markov transition |
 | GRU model (own) | Ablation: shot type → + location → + player identity |
-| ShuttleNet (official code) | Full forecasting model (Wang et al., AAAI 2022) |
-| LLM advice | Gemini, batch prompt + local cache |
-| Demo app | Streamlit, runs offline from precomputed results |
+| ShuttleNet (official code) | Transformer-based forecasting model (Wang et al., AAAI 2022) |
+| LLM forecaster | Gemini, zero-shot: reads strokes 1–5 as text and predicts stroke 6 |
+| LLM advice | Gemini, grounded in model output and player statistics *(in progress)* |
+| Demo app | Streamlit, runs offline from precomputed results *(in progress)* |
 
 ## Results
 
-<!-- TODO: fill after experiments are frozen -->
+Next-stroke forecasting on the test set (336 rallies; predict stroke 6 from strokes 1–5).
+Preliminary results as of Nov 25, 2026.
 
-| Model | Acc | Macro-F1 | Top-3 Acc | Landing error |
+| Model | Accuracy | Macro-F1 | Top-3 Acc | Landing error ↓ |
 | --- | --- | --- | --- | --- |
-| Most-frequent | | | | |
-| Markov | | | | |
-| GRU (type only) | | | | |
-| GRU (+ location) | | | | |
-| GRU (+ player) | | | | |
-| ShuttleNet | | | | |
+| Most-frequent | 0.304 | 0.058 | 0.583 | 125.2 |
+| Markov | 0.491 | 0.341 | 0.923 | 121.8 |
+| ShuttleNet | 0.436 ± 0.036 | 0.231 ± 0.054 | 0.743 ± 0.087 | 121.2 ± 2.4 |
+| GRU (type only) | 0.529 ± 0.005 | 0.344 ± 0.003 | 0.932 ± 0.003 | 120.9 ± 0.4 |
+| GRU (+ location) | 0.528 ± 0.009 | 0.375 ± 0.008 | 0.936 ± 0.007 | 114.6 ± 0.3 |
+| **GRU (+ location + player)** | **0.537 ± 0.017** | **0.399 ± 0.040** | **0.937 ± 0.007** | **114.1 ± 0.7** |
+| Gemini 3.6 Flash (zero-shot) | 0.423 | 0.324 | 0.827 | 148.7 |
 
-Mean ± SD over 3 seeds. Split and metric definitions: see [Evaluation](#evaluation).
+Mean ± SD over 3 seeds for trained models; baselines are deterministic; Gemini was run once (temperature 0).
+Landing error is the mean Euclidean distance in the dataset's court-coordinate units.
+With 336 test samples, one sample ≈ 0.3 percentage points of accuracy, so small differences should be read as trends.
+
+**Observations so far**
+- All GRU variants outperform the Markov baseline; the GRU sees the whole 5-stroke context, Markov only the last stroke.
+- Adding landing locations mainly improves macro-F1 (rarer shot types) and landing error.
+- ShuttleNet (official code, default settings, 150 epochs without early stopping) does not beat Markov on this split.
+- Zero-shot Gemini beats the most-frequent baseline but not Markov, and is weakest on landing location.
+
+Training curves: [`results/figures/`](results/figures/). Raw numbers: [`results/metrics.csv`](results/metrics.csv).
 
 ## Repository structure
 
@@ -96,20 +111,33 @@ Get a Gemini API key at [Google AI Studio](https://aistudio.google.com/). Each u
 ## Usage
 
 ```bash
-python -m badminton_coach.data          # build data/processed/
+# Preprocess with the official ShuttleNet cleaner, then build our split
+cd "third_party/CoachAI-Projects/Stroke Forecasting"
+python -c "from badmintoncleaner import BadmintonCleaner; BadmintonCleaner('../ShuttleSet/set/', 'match.csv')"
+cd ../../..
+python -m badminton_coach.data
+
+# Models (each run appends to results/metrics.csv)
 python -m badminton_coach.baselines
+bash scripts/train_shuttlenet.sh                         # official ShuttleNet, seeds 42-44
+bash scripts/train_gru.sh                                # GRU ablation, 3 inputs x 3 seeds
+python -m badminton_coach.gemini_forecast --model gemini-3.6-flash   # ~12 API requests
+
+# Print the results table
 python -m badminton_coach.evaluate
-streamlit run app/app.py
 ```
 
-<!-- TODO: update commands to match the final code -->
+All models run on a laptop CPU (tested on a MacBook Air M2): ShuttleNet takes about 5 minutes per seed, the GRU about 1 minute.
+Gemini answers are cached in `results/advice_cache.json`, so re-running reproduces the table without an API key.
 
 ## Evaluation
 
 - **Split**: for each match, the first 80% of rallies → train, the last 20% → test
   (same protocol as the official ShuttleNet code), so every player appears in training.
+  For the GRU, the last 10% of training rallies in each match are held out for early stopping; the test set is never used for training or model selection.
 - **Task**: given the first 5 strokes of a rally, predict stroke 6
   (the official ShuttleNet setting: 4 encoded strokes + 1 decoder input).
+- **Data cleaning**: the official ShuttleNet preprocessing keeps 2,372 of 3,683 rallies (24,471 strokes); rallies with annotation flaws, unknown shot types or out-of-court hit areas are removed.
 - **Shot types**: the 18 annotated types are merged into 10 groups, following the official ShuttleNet preprocessing.
 - **Metrics**: accuracy, macro-F1, top-3 accuracy (shot type); mean Euclidean distance (landing location, in the dataset's court coordinates).
 - **Advice**: reviewed by the author (former competitive player) on a fixed set of test rallies with a simple rubric.

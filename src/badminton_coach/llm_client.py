@@ -13,10 +13,11 @@ import time
 from pathlib import Path
 
 from google import genai
-from google.genai import errors
+from google.genai import errors, types
 
 CACHE_PATH = Path("results/advice_cache.json")
 RETRY_CODES = {429, 500, 503}
+DEFAULT_MODEL = "gemini-3.8-flash"     # check the exact id in Google AI Studio
 
 
 def load_api_key() -> str:
@@ -48,17 +49,23 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def generate(prompt: str, model: str = "gemini-2.5-flash", max_retries: int = 5) -> str:
-    """Return cached text if this exact prompt was already answered."""
+def generate(prompt: str, model: str = DEFAULT_MODEL, max_retries: int = 5,
+             json_mode: bool = False) -> str:
+    """Return cached text if this exact prompt was already answered.
+
+    json_mode=True asks Gemini to answer with JSON only (temperature 0).
+    """
     cache = _load_cache()
-    k = hashlib.sha256(f"{model}\n{prompt}".encode()).hexdigest()
+    k = hashlib.sha256(f"{model}\n{json_mode}\n{prompt}".encode()).hexdigest()
     if k in cache:
         return cache[k]["text"]
 
     client = genai.Client(api_key=load_api_key())
     for attempt in range(max_retries):
         try:
-            resp = client.models.generate_content(model=model, contents=prompt)
+            config = types.GenerateContentConfig(
+                temperature=0, response_mime_type="application/json") if json_mode else None
+            resp = client.models.generate_content(model=model, contents=prompt, config=config)
             cache[k] = {"model": model, "prompt": prompt, "text": resp.text}
             _save_cache(cache)
             return resp.text

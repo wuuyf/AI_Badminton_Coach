@@ -10,6 +10,7 @@ lands on the same half as stroke t-2, so models may "canonicalise" coordinates
 by rotating the court 180 degrees: (x, y) -> (-x, -y).
 """
 import json
+import warnings
 from pathlib import Path
 
 import numpy as np
@@ -94,7 +95,9 @@ def save_result(result: dict) -> None:
     if RESULTS_CSV.exists():
         old = pd.read_csv(RESULTS_CSV)
         same = (old["model"] == result["model"]) & (old["seed"].fillna(-1) == (result["seed"] if result["seed"] is not None else -1))
-        new = pd.concat([old[~same], new], ignore_index=True)
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", FutureWarning)     # harmless dtype notice from pandas
+            new = pd.concat([old[~same], new], ignore_index=True)
     new.to_csv(RESULTS_CSV, index=False)
 
 
