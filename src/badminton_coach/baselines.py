@@ -7,7 +7,7 @@
                    landing = average (canonicalised) landing point given the previous type.
 
 Training uses every stroke t >= 3 of every training rally (t-2 is needed to know
-which half of the court the shot lands on). Testing uses stroke 5 only.
+which half of the court the shot lands on). Testing uses stroke 6 only.
 """
 import numpy as np
 import pandas as pd
@@ -36,7 +36,7 @@ def most_frequent(pairs: pd.DataFrame, test: pd.DataFrame, n_cls: int):
     counts = np.bincount(pairs["next_type"], minlength=n_cls).astype(float)
     probs = np.tile(counts / counts.sum(), (len(test), 1))
     mean_xy = pairs[["cx", "cy"]].mean().to_numpy()
-    s = side_sign([y[2] for y in test["ctx_y"]])          # stroke 3 -> half of stroke 5
+    s = side_sign([y[-2] for y in test["ctx_y"]])         # stroke t-2 -> half of stroke t
     return probs, np.outer(s, mean_xy)
 
 
@@ -52,7 +52,7 @@ def markov(pairs: pd.DataFrame, test: pd.DataFrame, n_cls: int):
     prev = np.array([t[-1] for t in test["ctx_type"]])
     probs = trans[prev]
     xy = np.array([mean_xy.loc[p].to_numpy() if p in mean_xy.index else overall for p in prev])
-    s = side_sign([y[2] for y in test["ctx_y"]])
+    s = side_sign([y[-2] for y in test["ctx_y"]])
     return probs, xy * s[:, None]
 
 

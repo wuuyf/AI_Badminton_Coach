@@ -19,6 +19,8 @@ git -C "$DEST" checkout -q "$COMMIT"
 # Local fix for macOS: worker processes re-import train.py (no __main__ guard),
 # so use num_workers=0. Applied to the downloaded copy only; not committed.
 perl -pi -e 's/num_workers=8/num_workers=0/g' "$DEST/Stroke Forecasting/badmintoncleaner.py"
+# Local fix for CPU / Apple Silicon: replace hard-coded .cuda(device) with .to(device)
+find "$DEST/Stroke Forecasting" -name "*.py" -exec perl -pi -e 's/\.cuda\(/.to(/g' {} +
 
 mkdir -p data
 ln -sfn "../$DEST/ShuttleSet/set" data/raw

@@ -1,6 +1,6 @@
 """Shared evaluation for every model (baselines, GRU, ShuttleNet, LLM).
 
-Task   : given strokes 1-4 of a test rally, predict stroke 5.
+Task   : given strokes 1-5 of a test rally, predict stroke 6 (see data.py).
 Metrics: accuracy, macro-F1, top-3 accuracy (shot type);
          mean Euclidean landing error in court-coordinate units.
 
@@ -26,7 +26,7 @@ def load_processed() -> tuple[pd.DataFrame, dict]:
     return df, meta
 
 
-def next_shot_table(df: pd.DataFrame, split: str, encode_length: int = 4) -> pd.DataFrame:
+def next_shot_table(df: pd.DataFrame, split: str, encode_length: int = 5) -> pd.DataFrame:
     """One row per rally with more than `encode_length` strokes.
 
     Context columns hold lists of length `encode_length`; target is stroke encode_length+1.

@@ -41,12 +41,13 @@ Mean ± SD over 3 seeds. Split and metric definitions: see [Evaluation](#evaluat
 ## Repository structure
 
 ```
-AI-Badminton-Coach/
+AI_Badminton_Coach/
 ├── README.md
 ├── LICENSE                  # MIT – covers only the code written in this repo
 ├── .gitignore
 ├── .env.example             # template; the real .env is never committed
 ├── requirements.txt
+├── pyproject.toml
 ├── configs/                 # experiment settings (YAML)
 ├── scripts/
 │   ├── setup_data.sh        # downloads ShuttleSet + ShuttleNet from upstream
@@ -55,6 +56,7 @@ AI-Badminton-Coach/
 │   ├── data.py              # preprocessing, train/test split
 │   ├── baselines.py
 │   ├── gru_model.py
+│   ├── shuttlenet_eval.py   # scores the official ShuttleNet on our test set
 │   ├── evaluate.py
 │   ├── player_stats.py      # shot habits per player (input to the LLM)
 │   └── llm_client.py        # Gemini client: key loading, retry, cache
@@ -73,6 +75,7 @@ cd AI_Badminton_Coach
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install -e .
 
 # 1) Download data and official code (not redistributed in this repo)
 bash scripts/setup_data.sh
@@ -105,7 +108,8 @@ streamlit run app/app.py
 
 - **Split**: for each match, the first 80% of rallies → train, the last 20% → test
   (same protocol as the official ShuttleNet code), so every player appears in training.
-- **Task**: given the first 4 strokes of a rally, predict stroke 5.
+- **Task**: given the first 5 strokes of a rally, predict stroke 6
+  (the official ShuttleNet setting: 4 encoded strokes + 1 decoder input).
 - **Shot types**: the 18 annotated types are merged into 10 groups, following the official ShuttleNet preprocessing.
 - **Metrics**: accuracy, macro-F1, top-3 accuracy (shot type); mean Euclidean distance (landing location, in the dataset's court coordinates).
 - **Advice**: reviewed by the author (former competitive player) on a fixed set of test rallies with a simple rubric.

@@ -8,7 +8,9 @@ Output : data/processed/strokes.parquet  - all strokes with split + encoded ids
 
 Split (same as the official code): within each match, the first 80% of rallies
 -> train, the remaining 20% -> test.
-Task: given the first 4 strokes of a rally, predict stroke 5.
+Task: given the first 5 strokes of a rally, predict stroke 6.
+(= official ShuttleNet setting encode_length=4: strokes 1-4 encoded, stroke 5 is the
+first decoder input, stroke 6 is the first prediction.)
 """
 import argparse
 import json
@@ -18,7 +20,7 @@ import pandas as pd
 
 DEFAULT_INPUT = Path("third_party/CoachAI-Projects/Stroke Forecasting/data/dataset.csv")
 OUT_DIR = Path("data/processed")
-ENCODE_LENGTH = 4          # observed strokes
+ENCODE_LENGTH = 5          # observed strokes before the predicted one
 TRAIN_RATIO = 0.8
 
 # 10 merged shot types used by the official ShuttleNet preprocessing
@@ -45,18 +47,19 @@ def load(path: Path) -> pd.DataFrame:
     unknown = set(df["type"].unique()) - set(SHOT_TYPES)
     if unknown:
         raise ValueError(f"Unexpected shot types: {unknown}")
-    return df.sort_values(["match_id", "rally_id", "ball_round"], kind="stable").reset_index(drop=True)
+    return df   # keep file order: the official split depends on it
 
 
 def add_split(df: pd.DataFrame) -> pd.DataFrame:
     """First 80% of rallies in each match -> train, rest -> test."""
     split = {}
     for _, match in df.groupby("match_id", sort=False):
-        rallies = match["rally_id"].unique()          # already in time order
+        rallies = match["rally_id"].unique()          # file order, exactly as the official code
         cut = int(len(rallies) * TRAIN_RATIO)
         split.update({r: "train" for r in rallies[:cut]})
         split.update({r: "test" for r in rallies[cut:]})
-    return df.assign(split=df["rally_id"].map(split))
+    df = df.assign(split=df["rally_id"].map(split))
+    return df.sort_values(["match_id", "rally_id", "ball_round"], kind="stable").reset_index(drop=True)
 
 
 def encode(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
@@ -93,9 +96,9 @@ def summarize(df: pd.DataFrame) -> None:
     test_only = set(df.loc[df["split"] == "test", "player"]) - train_players
     print(f"Players only in test: {sorted(test_only) or 'none'}")
 
-    # Class distribution of the prediction target (stroke 5) in test
+    # Class distribution of the prediction target in test
     target = df[(df["split"] == "test") & (df["ball_round"] == ENCODE_LENGTH + 1)]
-    print("\nTest targets (stroke 5) by shot type:")
+    print(f"\nTest targets (stroke {ENCODE_LENGTH + 1}) by shot type:")
     print(target["type_en"].value_counts().to_string())
 
 
