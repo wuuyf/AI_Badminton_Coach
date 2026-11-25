@@ -1,0 +1,3711 @@
+{
+  "An Se Young": {
+    "n_rallies": 131,
+    "n_strokes": 612,
+    "shot_mix": {
+      "net shot": 0.192,
+      "drop": 0.166,
+      "smash": 0.161,
+      "lob": 0.129,
+      "defensive return": 0.118
+    },
+    "attack_share": 0.242,
+    "replies": {
+      "clear": {
+        "n": 65,
+        "top": {
+          "smash": 0.354,
+          "clear": 0.338,
+          "drop": 0.292
+        }
+      },
+      "defensive return": {
+        "n": 56,
+        "top": {
+          "net shot": 0.446,
+          "lob": 0.196,
+          "push/rush": 0.161
+        }
+      },
+      "drive": {
+        "n": 17,
+        "top": {
+          "defensive return": 0.412,
+          "smash": 0.118,
+          "drop": 0.118
+        }
+      },
+      "drop": {
+        "n": 32,
+        "top": {
+          "net shot": 0.594,
+          "lob": 0.219,
+          "push/rush": 0.125
+        }
+      },
+      "lob": {
+        "n": 84,
+        "top": {
+          "drop": 0.44,
+          "smash": 0.31,
+          "clear": 0.214
+        }
+      },
+      "long service": {
+        "n": 27,
+        "top": {
+          "smash": 0.407,
+          "drop": 0.296,
+          "clear": 0.296
+        }
+      },
+      "net shot": {
+        "n": 100,
+        "top": {
+          "lob": 0.42,
+          "net shot": 0.41,
+          "push/rush": 0.17
+        }
+      },
+      "push/rush": {
+        "n": 71,
+        "top": {
+          "drop": 0.296,
+          "smash": 0.282,
+          "clear": 0.197
+        }
+      },
+      "short service": {
+        "n": 34,
+        "top": {
+          "net shot": 0.412,
+          "push/rush": 0.324,
+          "lob": 0.265
+        }
+      },
+      "smash": {
+        "n": 56,
+        "top": {
+          "defensive return": 0.911,
+          "net shot": 0.071,
+          "lob": 0.018
+        }
+      }
+    },
+    "winners": {
+      "smash": 5,
+      "push/rush": 4,
+      "defensive return": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 6,
+        "reasons": {
+          "out": 5,
+          "misjudged landing": 1
+        }
+      },
+      "defensive return": {
+        "n": 10,
+        "reasons": {
+          "out": 3,
+          "not over net": 3,
+          "net": 4
+        }
+      },
+      "drop": {
+        "n": 6,
+        "reasons": {
+          "out": 3,
+          "net": 3
+        }
+      },
+      "lob": {
+        "n": 5,
+        "reasons": {
+          "out": 5
+        }
+      },
+      "net shot": {
+        "n": 8,
+        "reasons": {
+          "net": 6,
+          "not over net": 2
+        }
+      },
+      "push/rush": {
+        "n": 5,
+        "reasons": {
+          "out": 5
+        }
+      },
+      "smash": {
+        "n": 4,
+        "reasons": {
+          "out": 2,
+          "net": 2
+        }
+      }
+    },
+    "conceded": {
+      "push/rush": 10,
+      "smash": 8,
+      "net shot": 5,
+      "clear": 2,
+      "lob": 1
+    }
+  },
+  "Anders ANTONSEN": {
+    "n_rallies": 301,
+    "n_strokes": 1513,
+    "shot_mix": {
+      "net shot": 0.236,
+      "lob": 0.17,
+      "defensive return": 0.156,
+      "smash": 0.13,
+      "push/rush": 0.116
+    },
+    "attack_share": 0.246,
+    "replies": {
+      "clear": {
+        "n": 78,
+        "top": {
+          "smash": 0.487,
+          "clear": 0.321,
+          "drop": 0.192
+        }
+      },
+      "defensive return": {
+        "n": 182,
+        "top": {
+          "net shot": 0.341,
+          "lob": 0.275,
+          "push/rush": 0.192
+        }
+      },
+      "drive": {
+        "n": 48,
+        "top": {
+          "defensive return": 0.479,
+          "drive": 0.354,
+          "push/rush": 0.062
+        }
+      },
+      "drop": {
+        "n": 125,
+        "top": {
+          "net shot": 0.528,
+          "lob": 0.264,
+          "push/rush": 0.2
+        }
+      },
+      "lob": {
+        "n": 223,
+        "top": {
+          "smash": 0.439,
+          "clear": 0.26,
+          "drop": 0.251
+        }
+      },
+      "long service": {
+        "n": 18,
+        "top": {
+          "smash": 0.611,
+          "clear": 0.222,
+          "drop": 0.167
+        }
+      },
+      "net shot": {
+        "n": 279,
+        "top": {
+          "lob": 0.452,
+          "net shot": 0.405,
+          "push/rush": 0.133
+        }
+      },
+      "push/rush": {
+        "n": 102,
+        "top": {
+          "defensive return": 0.216,
+          "push/rush": 0.186,
+          "drop": 0.176
+        }
+      },
+      "short service": {
+        "n": 122,
+        "top": {
+          "net shot": 0.533,
+          "push/rush": 0.303,
+          "lob": 0.164
+        }
+      },
+      "smash": {
+        "n": 175,
+        "top": {
+          "defensive return": 0.931,
+          "net shot": 0.063,
+          "push/rush": 0.006
+        }
+      }
+    },
+    "winners": {
+      "smash": 15,
+      "push/rush": 12,
+      "net shot": 6,
+      "drop": 3,
+      "defensive return": 2
+    },
+    "errors": {
+      "clear": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "defensive return": {
+        "n": 17,
+        "reasons": {
+          "out": 6,
+          "net": 7,
+          "not over net": 4
+        }
+      },
+      "drive": {
+        "n": 2,
+        "reasons": {
+          "net": 1,
+          "out": 1
+        }
+      },
+      "drop": {
+        "n": 8,
+        "reasons": {
+          "net": 4,
+          "out": 4
+        }
+      },
+      "lob": {
+        "n": 18,
+        "reasons": {
+          "out": 16,
+          "net": 1,
+          "not over net": 1
+        }
+      },
+      "long service": {
+        "n": 1,
+        "reasons": {
+          "unknown": 1
+        }
+      },
+      "net shot": {
+        "n": 27,
+        "reasons": {
+          "net": 18,
+          "out": 7,
+          "not over net": 2
+        }
+      },
+      "push/rush": {
+        "n": 9,
+        "reasons": {
+          "out": 8,
+          "net": 1
+        }
+      },
+      "smash": {
+        "n": 21,
+        "reasons": {
+          "net": 8,
+          "out": 13
+        }
+      }
+    },
+    "conceded": {
+      "push/rush": 25,
+      "smash": 24,
+      "lob": 4,
+      "drop": 3,
+      "drive": 2
+    }
+  },
+  "Anthony Sinisuka GINTING": {
+    "n_rallies": 227,
+    "n_strokes": 1015,
+    "shot_mix": {
+      "net shot": 0.241,
+      "smash": 0.146,
+      "push/rush": 0.14,
+      "defensive return": 0.139,
+      "drop": 0.098
+    },
+    "attack_share": 0.286,
+    "replies": {
+      "clear": {
+        "n": 52,
+        "top": {
+          "smash": 0.442,
+          "clear": 0.288,
+          "drop": 0.25
+        }
+      },
+      "defensive return": {
+        "n": 116,
+        "top": {
+          "net shot": 0.448,
+          "push/rush": 0.233,
+          "lob": 0.121
+        }
+      },
+      "drive": {
+        "n": 60,
+        "top": {
+          "defensive return": 0.45,
+          "drive": 0.367,
+          "net shot": 0.117
+        }
+      },
+      "drop": {
+        "n": 53,
+        "top": {
+          "net shot": 0.415,
+          "push/rush": 0.415,
+          "defensive return": 0.113
+        }
+      },
+      "lob": {
+        "n": 135,
+        "top": {
+          "smash": 0.489,
+          "drop": 0.289,
+          "clear": 0.17
+        }
+      },
+      "long service": {
+        "n": 23,
+        "top": {
+          "smash": 0.609,
+          "clear": 0.261,
+          "drop": 0.087
+        }
+      },
+      "net shot": {
+        "n": 182,
+        "top": {
+          "net shot": 0.445,
+          "lob": 0.313,
+          "push/rush": 0.225
+        }
+      },
+      "push/rush": {
+        "n": 112,
+        "top": {
+          "drop": 0.295,
+          "smash": 0.179,
+          "defensive return": 0.179
+        }
+      },
+      "short service": {
+        "n": 95,
+        "top": {
+          "net shot": 0.484,
+          "push/rush": 0.347,
+          "lob": 0.126
+        }
+      },
+      "smash": {
+        "n": 78,
+        "top": {
+          "defensive return": 0.821,
+          "net shot": 0.103,
+          "drive": 0.051
+        }
+      }
+    },
+    "winners": {
+      "smash": 19,
+      "push/rush": 15,
+      "net shot": 4,
+      "lob": 3,
+      "drive": 3
+    },
+    "errors": {
+      "clear": {
+        "n": 6,
+        "reasons": {
+          "out": 6
+        }
+      },
+      "defensive return": {
+        "n": 16,
+        "reasons": {
+          "net": 9,
+          "out": 3,
+          "not over net": 3,
+          "misjudged landing": 1
+        }
+      },
+      "drive": {
+        "n": 5,
+        "reasons": {
+          "out": 4,
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 6,
+        "reasons": {
+          "net": 5,
+          "not over net": 1
+        }
+      },
+      "lob": {
+        "n": 5,
+        "reasons": {
+          "out": 5
+        }
+      },
+      "net shot": {
+        "n": 18,
+        "reasons": {
+          "not over net": 5,
+          "net": 12,
+          "out": 1
+        }
+      },
+      "push/rush": {
+        "n": 6,
+        "reasons": {
+          "out": 5,
+          "net": 1
+        }
+      },
+      "smash": {
+        "n": 10,
+        "reasons": {
+          "net": 3,
+          "out": 7
+        }
+      }
+    },
+    "conceded": {
+      "smash": 15,
+      "push/rush": 7,
+      "net shot": 4,
+      "drive": 3,
+      "clear": 2
+    }
+  },
+  "Busanan ONGBAMRUNGPHAN": {
+    "n_rallies": 17,
+    "n_strokes": 70,
+    "shot_mix": {
+      "defensive return": 0.29,
+      "lob": 0.177,
+      "clear": 0.145,
+      "net shot": 0.129,
+      "drop": 0.113
+    },
+    "attack_share": 0.145,
+    "replies": {
+      "clear": {
+        "n": 11,
+        "top": {
+          "clear": 0.455,
+          "drop": 0.273,
+          "smash": 0.273
+        }
+      },
+      "smash": {
+        "n": 16,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "lob": 1,
+      "smash": 1,
+      "drop": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 2,
+        "reasons": {
+          "not over net": 1,
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "not over net": 1,
+          "out": 1
+        }
+      },
+      "net shot": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "push/rush": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      }
+    },
+    "conceded": {
+      "smash": 1,
+      "drop": 1
+    }
+  },
+  "CHEN Long": {
+    "n_rallies": 173,
+    "n_strokes": 920,
+    "shot_mix": {
+      "net shot": 0.249,
+      "lob": 0.157,
+      "smash": 0.14,
+      "defensive return": 0.123,
+      "drop": 0.121
+    },
+    "attack_share": 0.235,
+    "replies": {
+      "clear": {
+        "n": 52,
+        "top": {
+          "smash": 0.5,
+          "drop": 0.269,
+          "clear": 0.231
+        }
+      },
+      "defensive return": {
+        "n": 97,
+        "top": {
+          "net shot": 0.309,
+          "push/rush": 0.258,
+          "lob": 0.134
+        }
+      },
+      "drive": {
+        "n": 30,
+        "top": {
+          "defensive return": 0.5,
+          "drive": 0.367,
+          "net shot": 0.067
+        }
+      },
+      "drop": {
+        "n": 65,
+        "top": {
+          "net shot": 0.769,
+          "push/rush": 0.077,
+          "defensive return": 0.062
+        }
+      },
+      "lob": {
+        "n": 122,
+        "top": {
+          "smash": 0.426,
+          "drop": 0.377,
+          "clear": 0.156
+        }
+      },
+      "net shot": {
+        "n": 197,
+        "top": {
+          "lob": 0.533,
+          "net shot": 0.33,
+          "push/rush": 0.137
+        }
+      },
+      "push/rush": {
+        "n": 102,
+        "top": {
+          "drop": 0.324,
+          "smash": 0.275,
+          "clear": 0.157
+        }
+      },
+      "short service": {
+        "n": 75,
+        "top": {
+          "net shot": 0.6,
+          "push/rush": 0.267,
+          "lob": 0.107
+        }
+      },
+      "smash": {
+        "n": 82,
+        "top": {
+          "defensive return": 0.817,
+          "net shot": 0.171,
+          "drive": 0.012
+        }
+      }
+    },
+    "winners": {
+      "smash": 15,
+      "push/rush": 6,
+      "drop": 2,
+      "net shot": 1,
+      "lob": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 17,
+        "reasons": {
+          "not over net": 10,
+          "out": 3,
+          "net": 4
+        }
+      },
+      "drive": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 7,
+        "reasons": {
+          "out": 7
+        }
+      },
+      "net shot": {
+        "n": 9,
+        "reasons": {
+          "not over net": 3,
+          "net": 6
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "net": 2,
+          "out": 1
+        }
+      },
+      "smash": {
+        "n": 7,
+        "reasons": {
+          "out": 7
+        }
+      }
+    },
+    "conceded": {
+      "smash": 21,
+      "push/rush": 7,
+      "net shot": 4,
+      "drive": 2,
+      "drop": 2
+    }
+  },
+  "CHOU Tien Chen": {
+    "n_rallies": 572,
+    "n_strokes": 3356,
+    "shot_mix": {
+      "net shot": 0.237,
+      "defensive return": 0.139,
+      "push/rush": 0.137,
+      "lob": 0.123,
+      "smash": 0.121
+    },
+    "attack_share": 0.259,
+    "replies": {
+      "clear": {
+        "n": 260,
+        "top": {
+          "smash": 0.404,
+          "clear": 0.35,
+          "drop": 0.219
+        }
+      },
+      "defensive return": {
+        "n": 404,
+        "top": {
+          "net shot": 0.337,
+          "push/rush": 0.302,
+          "lob": 0.2
+        }
+      },
+      "drive": {
+        "n": 100,
+        "top": {
+          "defensive return": 0.47,
+          "drive": 0.31,
+          "smash": 0.06
+        }
+      },
+      "drop": {
+        "n": 384,
+        "top": {
+          "net shot": 0.477,
+          "push/rush": 0.203,
+          "defensive return": 0.135
+        }
+      },
+      "lob": {
+        "n": 508,
+        "top": {
+          "smash": 0.362,
+          "clear": 0.346,
+          "drop": 0.244
+        }
+      },
+      "long service": {
+        "n": 12,
+        "top": {
+          "clear": 0.417,
+          "smash": 0.333,
+          "drop": 0.25
+        }
+      },
+      "net shot": {
+        "n": 577,
+        "top": {
+          "net shot": 0.43,
+          "lob": 0.354,
+          "push/rush": 0.21
+        }
+      },
+      "push/rush": {
+        "n": 233,
+        "top": {
+          "clear": 0.318,
+          "drop": 0.275,
+          "smash": 0.227
+        }
+      },
+      "short service": {
+        "n": 275,
+        "top": {
+          "net shot": 0.473,
+          "push/rush": 0.32,
+          "lob": 0.164
+        }
+      },
+      "smash": {
+        "n": 323,
+        "top": {
+          "defensive return": 0.882,
+          "net shot": 0.087,
+          "drive": 0.019
+        }
+      }
+    },
+    "winners": {
+      "smash": 75,
+      "push/rush": 21,
+      "net shot": 9,
+      "defensive return": 8,
+      "clear": 5
+    },
+    "errors": {
+      "clear": {
+        "n": 10,
+        "reasons": {
+          "out": 10
+        }
+      },
+      "defensive return": {
+        "n": 47,
+        "reasons": {
+          "net": 20,
+          "not over net": 18,
+          "out": 9
+        }
+      },
+      "drive": {
+        "n": 11,
+        "reasons": {
+          "not over net": 3,
+          "out": 3,
+          "net": 5
+        }
+      },
+      "drop": {
+        "n": 4,
+        "reasons": {
+          "out": 2,
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 18,
+        "reasons": {
+          "net": 1,
+          "out": 17
+        }
+      },
+      "net shot": {
+        "n": 49,
+        "reasons": {
+          "not over net": 13,
+          "net": 33,
+          "out": 3
+        }
+      },
+      "push/rush": {
+        "n": 19,
+        "reasons": {
+          "out": 14,
+          "net": 3,
+          "opponent winner": 2
+        }
+      },
+      "short service": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "smash": {
+        "n": 28,
+        "reasons": {
+          "net": 4,
+          "out": 24
+        }
+      }
+    },
+    "conceded": {
+      "smash": 46,
+      "push/rush": 27,
+      "net shot": 8,
+      "defensive return": 3,
+      "drop": 3
+    }
+  },
+  "Carolina MARIN": {
+    "n_rallies": 184,
+    "n_strokes": 801,
+    "shot_mix": {
+      "net shot": 0.206,
+      "lob": 0.15,
+      "smash": 0.148,
+      "clear": 0.127,
+      "defensive return": 0.125
+    },
+    "attack_share": 0.254,
+    "replies": {
+      "clear": {
+        "n": 64,
+        "top": {
+          "clear": 0.375,
+          "smash": 0.344,
+          "drop": 0.281
+        }
+      },
+      "defensive return": {
+        "n": 77,
+        "top": {
+          "net shot": 0.39,
+          "push/rush": 0.273,
+          "lob": 0.156
+        }
+      },
+      "drive": {
+        "n": 23,
+        "top": {
+          "defensive return": 0.391,
+          "drive": 0.348,
+          "lob": 0.13
+        }
+      },
+      "drop": {
+        "n": 78,
+        "top": {
+          "net shot": 0.564,
+          "lob": 0.231,
+          "push/rush": 0.179
+        }
+      },
+      "lob": {
+        "n": 98,
+        "top": {
+          "smash": 0.398,
+          "clear": 0.306,
+          "drop": 0.265
+        }
+      },
+      "long service": {
+        "n": 32,
+        "top": {
+          "smash": 0.688,
+          "clear": 0.281,
+          "drop": 0.031
+        }
+      },
+      "net shot": {
+        "n": 123,
+        "top": {
+          "lob": 0.463,
+          "net shot": 0.366,
+          "push/rush": 0.163
+        }
+      },
+      "push/rush": {
+        "n": 80,
+        "top": {
+          "clear": 0.287,
+          "drop": 0.2,
+          "smash": 0.188
+        }
+      },
+      "short service": {
+        "n": 45,
+        "top": {
+          "net shot": 0.422,
+          "lob": 0.311,
+          "push/rush": 0.267
+        }
+      },
+      "smash": {
+        "n": 74,
+        "top": {
+          "defensive return": 0.905,
+          "net shot": 0.068,
+          "push/rush": 0.014
+        }
+      }
+    },
+    "winners": {
+      "smash": 17,
+      "push/rush": 10,
+      "net shot": 9,
+      "clear": 3,
+      "drop": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 6,
+        "reasons": {
+          "out": 6
+        }
+      },
+      "defensive return": {
+        "n": 7,
+        "reasons": {
+          "not over net": 4,
+          "out": 2,
+          "net": 1
+        }
+      },
+      "drive": {
+        "n": 4,
+        "reasons": {
+          "net": 1,
+          "out": 2,
+          "not over net": 1
+        }
+      },
+      "drop": {
+        "n": 11,
+        "reasons": {
+          "net": 8,
+          "out": 2,
+          "not over net": 1
+        }
+      },
+      "lob": {
+        "n": 3,
+        "reasons": {
+          "out": 2,
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 11,
+        "reasons": {
+          "net": 7,
+          "not over net": 4
+        }
+      },
+      "push/rush": {
+        "n": 6,
+        "reasons": {
+          "out": 5,
+          "net": 1
+        }
+      },
+      "smash": {
+        "n": 11,
+        "reasons": {
+          "net": 6,
+          "out": 5
+        }
+      }
+    },
+    "conceded": {
+      "push/rush": 5,
+      "smash": 3,
+      "net shot": 3,
+      "drop": 2,
+      "lob": 1
+    }
+  },
+  "Evgeniya KOSETSKAYA": {
+    "n_rallies": 42,
+    "n_strokes": 150,
+    "shot_mix": {
+      "clear": 0.214,
+      "smash": 0.175,
+      "net shot": 0.143,
+      "defensive return": 0.143,
+      "lob": 0.127
+    },
+    "attack_share": 0.27,
+    "replies": {
+      "clear": {
+        "n": 22,
+        "top": {
+          "clear": 0.455,
+          "drop": 0.364,
+          "smash": 0.182
+        }
+      },
+      "defensive return": {
+        "n": 17,
+        "top": {
+          "net shot": 0.412,
+          "push/rush": 0.412,
+          "lob": 0.059
+        }
+      },
+      "drop": {
+        "n": 14,
+        "top": {
+          "net shot": 0.5,
+          "lob": 0.357,
+          "push/rush": 0.143
+        }
+      },
+      "lob": {
+        "n": 14,
+        "top": {
+          "clear": 0.571,
+          "smash": 0.357,
+          "drive": 0.071
+        }
+      },
+      "long service": {
+        "n": 18,
+        "top": {
+          "smash": 0.611,
+          "clear": 0.222,
+          "drop": 0.167
+        }
+      },
+      "net shot": {
+        "n": 17,
+        "top": {
+          "lob": 0.588,
+          "net shot": 0.235,
+          "push/rush": 0.176
+        }
+      },
+      "smash": {
+        "n": 16,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "smash": 3,
+      "clear": 1,
+      "push/rush": 1,
+      "defensive return": 1
+    },
+    "errors": {
+      "defensive return": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "net shot": {
+        "n": 1,
+        "reasons": {
+          "not over net": 1
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "smash": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      }
+    },
+    "conceded": {
+      "smash": 5,
+      "push/rush": 1,
+      "net shot": 1
+    }
+  },
+  "Hans-Kristian Solberg VITTINGHUS": {
+    "n_rallies": 100,
+    "n_strokes": 623,
+    "shot_mix": {
+      "net shot": 0.252,
+      "lob": 0.174,
+      "smash": 0.148,
+      "drop": 0.116,
+      "defensive return": 0.111
+    },
+    "attack_share": 0.227,
+    "replies": {
+      "clear": {
+        "n": 44,
+        "top": {
+          "smash": 0.591,
+          "drop": 0.295,
+          "clear": 0.114
+        }
+      },
+      "defensive return": {
+        "n": 78,
+        "top": {
+          "net shot": 0.474,
+          "lob": 0.205,
+          "push/rush": 0.115
+        }
+      },
+      "drive": {
+        "n": 12,
+        "top": {
+          "defensive return": 0.5,
+          "drive": 0.333,
+          "smash": 0.167
+        }
+      },
+      "drop": {
+        "n": 48,
+        "top": {
+          "net shot": 0.542,
+          "lob": 0.229,
+          "push/rush": 0.167
+        }
+      },
+      "lob": {
+        "n": 90,
+        "top": {
+          "smash": 0.378,
+          "drop": 0.344,
+          "clear": 0.244
+        }
+      },
+      "net shot": {
+        "n": 128,
+        "top": {
+          "lob": 0.492,
+          "net shot": 0.328,
+          "push/rush": 0.18
+        }
+      },
+      "push/rush": {
+        "n": 67,
+        "top": {
+          "drop": 0.254,
+          "smash": 0.254,
+          "clear": 0.194
+        }
+      },
+      "short service": {
+        "n": 48,
+        "top": {
+          "net shot": 0.708,
+          "lob": 0.188,
+          "push/rush": 0.104
+        }
+      },
+      "smash": {
+        "n": 56,
+        "top": {
+          "defensive return": 0.875,
+          "net shot": 0.107,
+          "lob": 0.018
+        }
+      }
+    },
+    "winners": {
+      "push/rush": 11,
+      "smash": 9,
+      "lob": 2,
+      "clear": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "defensive return": {
+        "n": 8,
+        "reasons": {
+          "net": 4,
+          "not over net": 3,
+          "out": 1
+        }
+      },
+      "drive": {
+        "n": 4,
+        "reasons": {
+          "net": 3,
+          "out": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "not over net": 1
+        }
+      },
+      "lob": {
+        "n": 6,
+        "reasons": {
+          "out": 5,
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 10,
+        "reasons": {
+          "net": 5,
+          "not over net": 2,
+          "out": 3
+        }
+      },
+      "smash": {
+        "n": 5,
+        "reasons": {
+          "net": 3,
+          "out": 2
+        }
+      }
+    },
+    "conceded": {
+      "smash": 8,
+      "drop": 4,
+      "net shot": 1,
+      "push/rush": 1
+    }
+  },
+  "Jonatan CHRISTIE": {
+    "n_rallies": 238,
+    "n_strokes": 1168,
+    "shot_mix": {
+      "net shot": 0.273,
+      "lob": 0.189,
+      "smash": 0.136,
+      "defensive return": 0.116,
+      "drop": 0.109
+    },
+    "attack_share": 0.244,
+    "replies": {
+      "clear": {
+        "n": 62,
+        "top": {
+          "smash": 0.435,
+          "drop": 0.371,
+          "clear": 0.194
+        }
+      },
+      "defensive return": {
+        "n": 112,
+        "top": {
+          "net shot": 0.527,
+          "push/rush": 0.188,
+          "lob": 0.152
+        }
+      },
+      "drive": {
+        "n": 25,
+        "top": {
+          "defensive return": 0.32,
+          "net shot": 0.28,
+          "drive": 0.16
+        }
+      },
+      "drop": {
+        "n": 79,
+        "top": {
+          "net shot": 0.722,
+          "lob": 0.165,
+          "push/rush": 0.063
+        }
+      },
+      "lob": {
+        "n": 212,
+        "top": {
+          "smash": 0.458,
+          "drop": 0.363,
+          "clear": 0.16
+        }
+      },
+      "net shot": {
+        "n": 267,
+        "top": {
+          "lob": 0.498,
+          "net shot": 0.363,
+          "push/rush": 0.135
+        }
+      },
+      "push/rush": {
+        "n": 77,
+        "top": {
+          "defensive return": 0.312,
+          "push/rush": 0.286,
+          "clear": 0.078
+        }
+      },
+      "short service": {
+        "n": 116,
+        "top": {
+          "net shot": 0.526,
+          "lob": 0.25,
+          "push/rush": 0.216
+        }
+      },
+      "smash": {
+        "n": 96,
+        "top": {
+          "defensive return": 0.906,
+          "net shot": 0.052,
+          "push/rush": 0.021
+        }
+      }
+    },
+    "winners": {
+      "smash": 17,
+      "push/rush": 15,
+      "lob": 3,
+      "drop": 3,
+      "net shot": 2
+    },
+    "errors": {
+      "clear": {
+        "n": 7,
+        "reasons": {
+          "out": 7
+        }
+      },
+      "defensive return": {
+        "n": 14,
+        "reasons": {
+          "not over net": 6,
+          "net": 5,
+          "out": 3
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 3,
+        "reasons": {
+          "net": 2,
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 13,
+        "reasons": {
+          "out": 12,
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 17,
+        "reasons": {
+          "net": 11,
+          "not over net": 6
+        }
+      },
+      "push/rush": {
+        "n": 13,
+        "reasons": {
+          "out": 6,
+          "net": 6,
+          "not over net": 1
+        }
+      },
+      "smash": {
+        "n": 12,
+        "reasons": {
+          "net": 7,
+          "out": 5
+        }
+      }
+    },
+    "conceded": {
+      "smash": 21,
+      "push/rush": 12,
+      "net shot": 4,
+      "lob": 4,
+      "defensive return": 4
+    }
+  },
+  "KIDAMBI Srikanth": {
+    "n_rallies": 56,
+    "n_strokes": 267,
+    "shot_mix": {
+      "net shot": 0.252,
+      "push/rush": 0.176,
+      "lob": 0.168,
+      "smash": 0.113,
+      "clear": 0.109
+    },
+    "attack_share": 0.29,
+    "replies": {
+      "clear": {
+        "n": 17,
+        "top": {
+          "clear": 0.412,
+          "drop": 0.294,
+          "smash": 0.294
+        }
+      },
+      "defensive return": {
+        "n": 16,
+        "top": {
+          "push/rush": 0.438,
+          "net shot": 0.188,
+          "lob": 0.188
+        }
+      },
+      "drop": {
+        "n": 44,
+        "top": {
+          "net shot": 0.659,
+          "push/rush": 0.205,
+          "lob": 0.136
+        }
+      },
+      "lob": {
+        "n": 38,
+        "top": {
+          "smash": 0.474,
+          "clear": 0.289,
+          "drop": 0.237
+        }
+      },
+      "net shot": {
+        "n": 58,
+        "top": {
+          "lob": 0.397,
+          "push/rush": 0.328,
+          "net shot": 0.276
+        }
+      },
+      "push/rush": {
+        "n": 18,
+        "top": {
+          "clear": 0.389,
+          "drop": 0.278,
+          "defensive return": 0.167
+        }
+      },
+      "short service": {
+        "n": 27,
+        "top": {
+          "net shot": 0.444,
+          "lob": 0.296,
+          "push/rush": 0.259
+        }
+      },
+      "smash": {
+        "n": 12,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "smash": 7,
+      "net shot": 2,
+      "drop": 1,
+      "defensive return": 1,
+      "push/rush": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 4,
+        "reasons": {
+          "out": 4
+        }
+      },
+      "defensive return": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "net": 1,
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 2,
+        "reasons": {
+          "not over net": 2
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "smash": {
+        "n": 3,
+        "reasons": {
+          "out": 1,
+          "net": 2
+        }
+      }
+    },
+    "conceded": {
+      "smash": 5,
+      "drop": 2,
+      "net shot": 1,
+      "lob": 1,
+      "clear": 1
+    }
+  },
+  "Kento MOMOTA": {
+    "n_rallies": 364,
+    "n_strokes": 2354,
+    "shot_mix": {
+      "net shot": 0.188,
+      "lob": 0.182,
+      "drop": 0.157,
+      "defensive return": 0.149,
+      "smash": 0.117
+    },
+    "attack_share": 0.198,
+    "replies": {
+      "clear": {
+        "n": 238,
+        "top": {
+          "drop": 0.403,
+          "smash": 0.366,
+          "clear": 0.218
+        }
+      },
+      "defensive return": {
+        "n": 262,
+        "top": {
+          "net shot": 0.302,
+          "lob": 0.263,
+          "push/rush": 0.16
+        }
+      },
+      "drive": {
+        "n": 82,
+        "top": {
+          "defensive return": 0.622,
+          "drive": 0.183,
+          "net shot": 0.073
+        }
+      },
+      "drop": {
+        "n": 179,
+        "top": {
+          "net shot": 0.559,
+          "defensive return": 0.201,
+          "push/rush": 0.117
+        }
+      },
+      "lob": {
+        "n": 268,
+        "top": {
+          "drop": 0.437,
+          "smash": 0.269,
+          "clear": 0.265
+        }
+      },
+      "long service": {
+        "n": 29,
+        "top": {
+          "smash": 0.414,
+          "clear": 0.31,
+          "drop": 0.276
+        }
+      },
+      "net shot": {
+        "n": 483,
+        "top": {
+          "lob": 0.542,
+          "net shot": 0.3,
+          "push/rush": 0.139
+        }
+      },
+      "push/rush": {
+        "n": 289,
+        "top": {
+          "drop": 0.36,
+          "clear": 0.235,
+          "smash": 0.232
+        }
+      },
+      "short service": {
+        "n": 124,
+        "top": {
+          "net shot": 0.331,
+          "lob": 0.306,
+          "push/rush": 0.274
+        }
+      },
+      "smash": {
+        "n": 194,
+        "top": {
+          "defensive return": 0.83,
+          "net shot": 0.149,
+          "drive": 0.01
+        }
+      }
+    },
+    "winners": {
+      "smash": 25,
+      "push/rush": 16,
+      "net shot": 6,
+      "defensive return": 4,
+      "drop": 3
+    },
+    "errors": {
+      "clear": {
+        "n": 6,
+        "reasons": {
+          "out": 6
+        }
+      },
+      "defensive return": {
+        "n": 22,
+        "reasons": {
+          "out": 8,
+          "net": 9,
+          "not over net": 5
+        }
+      },
+      "drive": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "drop": {
+        "n": 12,
+        "reasons": {
+          "net": 6,
+          "out": 4,
+          "not over net": 2
+        }
+      },
+      "lob": {
+        "n": 19,
+        "reasons": {
+          "out": 18,
+          "net": 1
+        }
+      },
+      "long service": {
+        "n": 1,
+        "reasons": {
+          "fault": 1
+        }
+      },
+      "net shot": {
+        "n": 14,
+        "reasons": {
+          "net": 8,
+          "out": 4,
+          "not over net": 2
+        }
+      },
+      "push/rush": {
+        "n": 5,
+        "reasons": {
+          "out": 5
+        }
+      },
+      "smash": {
+        "n": 14,
+        "reasons": {
+          "out": 9,
+          "net": 5
+        }
+      }
+    },
+    "conceded": {
+      "smash": 54,
+      "push/rush": 7,
+      "net shot": 5,
+      "defensive return": 5,
+      "drive": 2
+    }
+  },
+  "LEE Cheuk Yiu": {
+    "n_rallies": 79,
+    "n_strokes": 433,
+    "shot_mix": {
+      "net shot": 0.3,
+      "lob": 0.171,
+      "smash": 0.117,
+      "defensive return": 0.109,
+      "drop": 0.097
+    },
+    "attack_share": 0.213,
+    "replies": {
+      "clear": {
+        "n": 21,
+        "top": {
+          "clear": 0.429,
+          "smash": 0.381,
+          "drop": 0.19
+        }
+      },
+      "defensive return": {
+        "n": 38,
+        "top": {
+          "net shot": 0.526,
+          "lob": 0.211,
+          "push/rush": 0.158
+        }
+      },
+      "drive": {
+        "n": 12,
+        "top": {
+          "defensive return": 0.583,
+          "drive": 0.333,
+          "push/rush": 0.083
+        }
+      },
+      "drop": {
+        "n": 47,
+        "top": {
+          "net shot": 0.638,
+          "lob": 0.149,
+          "push/rush": 0.149
+        }
+      },
+      "lob": {
+        "n": 69,
+        "top": {
+          "smash": 0.449,
+          "drop": 0.348,
+          "clear": 0.188
+        }
+      },
+      "net shot": {
+        "n": 104,
+        "top": {
+          "lob": 0.442,
+          "net shot": 0.365,
+          "push/rush": 0.183
+        }
+      },
+      "push/rush": {
+        "n": 23,
+        "top": {
+          "drop": 0.391,
+          "clear": 0.348,
+          "smash": 0.217
+        }
+      },
+      "short service": {
+        "n": 46,
+        "top": {
+          "net shot": 0.674,
+          "lob": 0.174,
+          "push/rush": 0.13
+        }
+      },
+      "smash": {
+        "n": 40,
+        "top": {
+          "defensive return": 0.9,
+          "drive": 0.05,
+          "net shot": 0.05
+        }
+      }
+    },
+    "winners": {
+      "smash": 7,
+      "net shot": 2,
+      "drop": 2,
+      "lob": 1,
+      "push/rush": 1
+    },
+    "errors": {
+      "defensive return": {
+        "n": 5,
+        "reasons": {
+          "not over net": 3,
+          "net": 2
+        }
+      },
+      "drive": {
+        "n": 4,
+        "reasons": {
+          "net": 2,
+          "not over net": 1,
+          "out": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 3,
+        "reasons": {
+          "out": 2,
+          "not over net": 1
+        }
+      },
+      "net shot": {
+        "n": 5,
+        "reasons": {
+          "net": 2,
+          "not over net": 3
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "smash": {
+        "n": 3,
+        "reasons": {
+          "net": 3
+        }
+      }
+    },
+    "conceded": {
+      "smash": 8,
+      "push/rush": 7,
+      "lob": 1
+    }
+  },
+  "LEE Zii Jia": {
+    "n_rallies": 56,
+    "n_strokes": 244,
+    "shot_mix": {
+      "push/rush": 0.213,
+      "net shot": 0.194,
+      "defensive return": 0.153,
+      "clear": 0.12,
+      "smash": 0.111
+    },
+    "attack_share": 0.324,
+    "replies": {
+      "clear": {
+        "n": 24,
+        "top": {
+          "smash": 0.417,
+          "clear": 0.333,
+          "drop": 0.208
+        }
+      },
+      "defensive return": {
+        "n": 12,
+        "top": {
+          "push/rush": 0.333,
+          "net shot": 0.25,
+          "lob": 0.167
+        }
+      },
+      "drive": {
+        "n": 14,
+        "top": {
+          "defensive return": 0.357,
+          "push/rush": 0.286,
+          "drive": 0.143
+        }
+      },
+      "drop": {
+        "n": 27,
+        "top": {
+          "net shot": 0.519,
+          "push/rush": 0.37,
+          "drive": 0.074
+        }
+      },
+      "net shot": {
+        "n": 45,
+        "top": {
+          "lob": 0.444,
+          "push/rush": 0.289,
+          "net shot": 0.267
+        }
+      },
+      "push/rush": {
+        "n": 35,
+        "top": {
+          "clear": 0.457,
+          "drop": 0.229,
+          "smash": 0.2
+        }
+      },
+      "short service": {
+        "n": 28,
+        "top": {
+          "push/rush": 0.536,
+          "net shot": 0.393,
+          "drive": 0.036
+        }
+      },
+      "smash": {
+        "n": 24,
+        "top": {
+          "defensive return": 0.958,
+          "net shot": 0.042
+        }
+      }
+    },
+    "winners": {
+      "smash": 6,
+      "push/rush": 2,
+      "clear": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "net": 2,
+          "not over net": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "net shot": {
+        "n": 5,
+        "reasons": {
+          "net": 4,
+          "not over net": 1
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "smash": {
+        "n": 4,
+        "reasons": {
+          "out": 3,
+          "net": 1
+        }
+      }
+    },
+    "conceded": {
+      "push/rush": 4,
+      "drop": 1,
+      "lob": 1,
+      "net shot": 1,
+      "smash": 1
+    }
+  },
+  "LIEW Daren": {
+    "n_rallies": 28,
+    "n_strokes": 118,
+    "shot_mix": {
+      "net shot": 0.349,
+      "drop": 0.165,
+      "smash": 0.147,
+      "lob": 0.138,
+      "defensive return": 0.083
+    },
+    "attack_share": 0.202,
+    "replies": {
+      "defensive return": {
+        "n": 10,
+        "top": {
+          "net shot": 0.8,
+          "push/rush": 0.2
+        }
+      },
+      "lob": {
+        "n": 36,
+        "top": {
+          "drop": 0.472,
+          "smash": 0.389,
+          "clear": 0.139
+        }
+      },
+      "net shot": {
+        "n": 26,
+        "top": {
+          "net shot": 0.5,
+          "lob": 0.462,
+          "push/rush": 0.038
+        }
+      },
+      "short service": {
+        "n": 17,
+        "top": {
+          "net shot": 0.706,
+          "push/rush": 0.176,
+          "lob": 0.118
+        }
+      }
+    },
+    "winners": {
+      "smash": 3,
+      "lob": 1,
+      "push/rush": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "defensive return": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "net shot": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "smash": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      }
+    },
+    "conceded": {
+      "smash": 3,
+      "lob": 2
+    }
+  },
+  "Mia BLICHFELDT": {
+    "n_rallies": 17,
+    "n_strokes": 69,
+    "shot_mix": {
+      "smash": 0.283,
+      "clear": 0.183,
+      "lob": 0.117,
+      "net shot": 0.1,
+      "push/rush": 0.1
+    },
+    "attack_share": 0.383,
+    "replies": {
+      "defensive return": {
+        "n": 16,
+        "top": {
+          "smash": 0.375,
+          "net shot": 0.188,
+          "lob": 0.188
+        }
+      },
+      "lob": {
+        "n": 10,
+        "top": {
+          "drop": 0.3,
+          "drive": 0.3,
+          "clear": 0.2
+        }
+      }
+    },
+    "winners": {
+      "smash": 1,
+      "drop": 1
+    },
+    "errors": {
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "not over net": 1
+        }
+      },
+      "lob": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      }
+    },
+    "conceded": {
+      "lob": 1,
+      "smash": 1,
+      "drop": 1
+    }
+  },
+  "Michelle LI": {
+    "n_rallies": 42,
+    "n_strokes": 155,
+    "shot_mix": {
+      "net shot": 0.175,
+      "smash": 0.175,
+      "clear": 0.175,
+      "defensive return": 0.146,
+      "lob": 0.131
+    },
+    "attack_share": 0.248,
+    "replies": {
+      "clear": {
+        "n": 26,
+        "top": {
+          "clear": 0.423,
+          "smash": 0.385,
+          "drop": 0.192
+        }
+      },
+      "defensive return": {
+        "n": 15,
+        "top": {
+          "push/rush": 0.4,
+          "net shot": 0.2,
+          "lob": 0.2
+        }
+      },
+      "drop": {
+        "n": 10,
+        "top": {
+          "net shot": 0.6,
+          "lob": 0.3,
+          "push/rush": 0.1
+        }
+      },
+      "lob": {
+        "n": 16,
+        "top": {
+          "smash": 0.438,
+          "clear": 0.312,
+          "drop": 0.25
+        }
+      },
+      "long service": {
+        "n": 11,
+        "top": {
+          "drop": 0.455,
+          "smash": 0.273,
+          "clear": 0.182
+        }
+      },
+      "net shot": {
+        "n": 17,
+        "top": {
+          "net shot": 0.529,
+          "lob": 0.412,
+          "push/rush": 0.059
+        }
+      },
+      "short service": {
+        "n": 13,
+        "top": {
+          "net shot": 0.462,
+          "lob": 0.385,
+          "push/rush": 0.154
+        }
+      },
+      "smash": {
+        "n": 18,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "smash": 5,
+      "push/rush": 1,
+      "net shot": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "net": 2,
+          "out": 1
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "misjudged landing": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "lob": {
+        "n": 4,
+        "reasons": {
+          "out": 4
+        }
+      },
+      "net shot": {
+        "n": 6,
+        "reasons": {
+          "not over net": 4,
+          "out": 2
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "smash": {
+        "n": 3,
+        "reasons": {
+          "out": 2,
+          "net": 1
+        }
+      }
+    },
+    "conceded": {
+      "smash": 3,
+      "clear": 1,
+      "push/rush": 1,
+      "defensive return": 1
+    }
+  },
+  "NG Ka Long Angus": {
+    "n_rallies": 321,
+    "n_strokes": 1617,
+    "shot_mix": {
+      "net shot": 0.256,
+      "lob": 0.167,
+      "drop": 0.156,
+      "defensive return": 0.115,
+      "smash": 0.103
+    },
+    "attack_share": 0.193,
+    "replies": {
+      "clear": {
+        "n": 99,
+        "top": {
+          "drop": 0.444,
+          "smash": 0.333,
+          "clear": 0.202
+        }
+      },
+      "defensive return": {
+        "n": 140,
+        "top": {
+          "net shot": 0.443,
+          "lob": 0.207,
+          "push/rush": 0.207
+        }
+      },
+      "drive": {
+        "n": 49,
+        "top": {
+          "defensive return": 0.49,
+          "drive": 0.245,
+          "net shot": 0.122
+        }
+      },
+      "drop": {
+        "n": 115,
+        "top": {
+          "net shot": 0.635,
+          "lob": 0.174,
+          "push/rush": 0.165
+        }
+      },
+      "lob": {
+        "n": 288,
+        "top": {
+          "drop": 0.444,
+          "smash": 0.316,
+          "clear": 0.198
+        }
+      },
+      "net shot": {
+        "n": 347,
+        "top": {
+          "net shot": 0.424,
+          "lob": 0.421,
+          "push/rush": 0.147
+        }
+      },
+      "push/rush": {
+        "n": 132,
+        "top": {
+          "drop": 0.348,
+          "drive": 0.197,
+          "clear": 0.159
+        }
+      },
+      "short service": {
+        "n": 156,
+        "top": {
+          "net shot": 0.506,
+          "lob": 0.295,
+          "push/rush": 0.167
+        }
+      },
+      "smash": {
+        "n": 128,
+        "top": {
+          "defensive return": 0.938,
+          "net shot": 0.047,
+          "push/rush": 0.008
+        }
+      }
+    },
+    "winners": {
+      "smash": 28,
+      "push/rush": 10,
+      "drop": 8,
+      "lob": 4,
+      "net shot": 3
+    },
+    "errors": {
+      "clear": {
+        "n": 4,
+        "reasons": {
+          "out": 4
+        }
+      },
+      "defensive return": {
+        "n": 31,
+        "reasons": {
+          "net": 8,
+          "out": 6,
+          "not over net": 17
+        }
+      },
+      "drop": {
+        "n": 18,
+        "reasons": {
+          "net": 12,
+          "out": 6
+        }
+      },
+      "lob": {
+        "n": 19,
+        "reasons": {
+          "net": 4,
+          "out": 15
+        }
+      },
+      "net shot": {
+        "n": 15,
+        "reasons": {
+          "net": 11,
+          "not over net": 4
+        }
+      },
+      "push/rush": {
+        "n": 12,
+        "reasons": {
+          "net": 3,
+          "out": 9
+        }
+      },
+      "smash": {
+        "n": 11,
+        "reasons": {
+          "net": 5,
+          "out": 6
+        }
+      }
+    },
+    "conceded": {
+      "smash": 30,
+      "push/rush": 11,
+      "net shot": 7,
+      "defensive return": 4,
+      "lob": 4
+    }
+  },
+  "Neslihan YIGIT": {
+    "n_rallies": 43,
+    "n_strokes": 175,
+    "shot_mix": {
+      "net shot": 0.195,
+      "lob": 0.182,
+      "push/rush": 0.164,
+      "defensive return": 0.151,
+      "drop": 0.119
+    },
+    "attack_share": 0.22,
+    "replies": {
+      "clear": {
+        "n": 13,
+        "top": {
+          "drop": 0.615,
+          "smash": 0.308,
+          "clear": 0.077
+        }
+      },
+      "defensive return": {
+        "n": 11,
+        "top": {
+          "push/rush": 0.364,
+          "net shot": 0.364,
+          "drive": 0.091
+        }
+      },
+      "drop": {
+        "n": 19,
+        "top": {
+          "net shot": 0.632,
+          "push/rush": 0.263,
+          "lob": 0.105
+        }
+      },
+      "lob": {
+        "n": 13,
+        "top": {
+          "clear": 0.462,
+          "smash": 0.308,
+          "drop": 0.231
+        }
+      },
+      "net shot": {
+        "n": 34,
+        "top": {
+          "lob": 0.647,
+          "net shot": 0.206,
+          "push/rush": 0.147
+        }
+      },
+      "push/rush": {
+        "n": 19,
+        "top": {
+          "clear": 0.474,
+          "drop": 0.263,
+          "defensive return": 0.105
+        }
+      },
+      "short service": {
+        "n": 25,
+        "top": {
+          "push/rush": 0.48,
+          "net shot": 0.32,
+          "lob": 0.16
+        }
+      },
+      "smash": {
+        "n": 17,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "net shot": 1,
+      "drop": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "not over net": 1
+        }
+      },
+      "defensive return": {
+        "n": 6,
+        "reasons": {
+          "not over net": 2,
+          "net": 3,
+          "out": 1
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      },
+      "net shot": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "not over net": 1
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "net": 1,
+          "out": 2
+        }
+      },
+      "smash": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      }
+    },
+    "conceded": {
+      "smash": 4,
+      "clear": 1,
+      "push/rush": 1,
+      "defensive return": 1
+    }
+  },
+  "PUSARLA V. Sindhu": {
+    "n_rallies": 44,
+    "n_strokes": 192,
+    "shot_mix": {
+      "net shot": 0.172,
+      "clear": 0.167,
+      "smash": 0.155,
+      "drop": 0.144,
+      "defensive return": 0.144
+    },
+    "attack_share": 0.224,
+    "replies": {
+      "clear": {
+        "n": 20,
+        "top": {
+          "smash": 0.45,
+          "drop": 0.3,
+          "clear": 0.25
+        }
+      },
+      "defensive return": {
+        "n": 18,
+        "top": {
+          "net shot": 0.5,
+          "lob": 0.167,
+          "push/rush": 0.167
+        }
+      },
+      "drop": {
+        "n": 23,
+        "top": {
+          "net shot": 0.609,
+          "lob": 0.174,
+          "push/rush": 0.174
+        }
+      },
+      "lob": {
+        "n": 26,
+        "top": {
+          "clear": 0.577,
+          "drop": 0.231,
+          "smash": 0.154
+        }
+      },
+      "long service": {
+        "n": 19,
+        "top": {
+          "smash": 0.474,
+          "drop": 0.316,
+          "clear": 0.211
+        }
+      },
+      "net shot": {
+        "n": 21,
+        "top": {
+          "lob": 0.524,
+          "net shot": 0.238,
+          "push/rush": 0.238
+        }
+      },
+      "push/rush": {
+        "n": 16,
+        "top": {
+          "drop": 0.438,
+          "clear": 0.25,
+          "smash": 0.25
+        }
+      },
+      "smash": {
+        "n": 22,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "smash": 5,
+      "push/rush": 3,
+      "drop": 3,
+      "clear": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "out": 2,
+          "not over net": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "lob": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "net shot": {
+        "n": 2,
+        "reasons": {
+          "not over net": 2
+        }
+      },
+      "smash": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      }
+    },
+    "conceded": {
+      "drop": 3,
+      "defensive return": 2,
+      "push/rush": 2,
+      "clear": 1,
+      "smash": 1
+    }
+  },
+  "Pornpawee CHOCHUWONG": {
+    "n_rallies": 91,
+    "n_strokes": 394,
+    "shot_mix": {
+      "push/rush": 0.209,
+      "net shot": 0.152,
+      "lob": 0.146,
+      "smash": 0.121,
+      "drop": 0.113
+    },
+    "attack_share": 0.331,
+    "replies": {
+      "clear": {
+        "n": 49,
+        "top": {
+          "smash": 0.347,
+          "drop": 0.306,
+          "clear": 0.306
+        }
+      },
+      "defensive return": {
+        "n": 48,
+        "top": {
+          "push/rush": 0.417,
+          "net shot": 0.188,
+          "lob": 0.125
+        }
+      },
+      "drive": {
+        "n": 17,
+        "top": {
+          "defensive return": 0.588,
+          "drive": 0.235,
+          "drop": 0.176
+        }
+      },
+      "drop": {
+        "n": 50,
+        "top": {
+          "net shot": 0.5,
+          "lob": 0.46,
+          "push/rush": 0.04
+        }
+      },
+      "lob": {
+        "n": 29,
+        "top": {
+          "smash": 0.379,
+          "clear": 0.345,
+          "drop": 0.207
+        }
+      },
+      "long service": {
+        "n": 17,
+        "top": {
+          "smash": 0.412,
+          "drop": 0.412,
+          "clear": 0.176
+        }
+      },
+      "net shot": {
+        "n": 51,
+        "top": {
+          "push/rush": 0.431,
+          "lob": 0.392,
+          "net shot": 0.176
+        }
+      },
+      "push/rush": {
+        "n": 25,
+        "top": {
+          "clear": 0.4,
+          "drop": 0.28,
+          "drive": 0.16
+        }
+      },
+      "short service": {
+        "n": 43,
+        "top": {
+          "push/rush": 0.744,
+          "net shot": 0.186,
+          "lob": 0.07
+        }
+      },
+      "smash": {
+        "n": 34,
+        "top": {
+          "defensive return": 0.824,
+          "net shot": 0.118,
+          "drop": 0.029
+        }
+      }
+    },
+    "winners": {
+      "push/rush": 6,
+      "clear": 1,
+      "smash": 1,
+      "drop": 1,
+      "defensive return": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "not over net": 2,
+          "out": 1
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 7,
+        "reasons": {
+          "not over net": 2,
+          "net": 4,
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 4,
+        "reasons": {
+          "out": 4
+        }
+      },
+      "net shot": {
+        "n": 6,
+        "reasons": {
+          "not over net": 4,
+          "net": 2
+        }
+      },
+      "push/rush": {
+        "n": 6,
+        "reasons": {
+          "out": 4,
+          "net": 1,
+          "opponent winner": 1
+        }
+      },
+      "smash": {
+        "n": 4,
+        "reasons": {
+          "net": 2,
+          "out": 2
+        }
+      }
+    },
+    "conceded": {
+      "smash": 11,
+      "push/rush": 4,
+      "drop": 3,
+      "clear": 2,
+      "net shot": 2
+    }
+  },
+  "Rasmus GEMKE": {
+    "n_rallies": 25,
+    "n_strokes": 95,
+    "shot_mix": {
+      "net shot": 0.229,
+      "smash": 0.145,
+      "lob": 0.133,
+      "push/rush": 0.133,
+      "drop": 0.108
+    },
+    "attack_share": 0.277,
+    "replies": {
+      "defensive return": {
+        "n": 12,
+        "top": {
+          "net shot": 0.333,
+          "push/rush": 0.333,
+          "lob": 0.167
+        }
+      },
+      "net shot": {
+        "n": 16,
+        "top": {
+          "lob": 0.5,
+          "net shot": 0.312,
+          "push/rush": 0.125
+        }
+      },
+      "push/rush": {
+        "n": 18,
+        "top": {
+          "smash": 0.389,
+          "drop": 0.278,
+          "drive": 0.167
+        }
+      },
+      "short service": {
+        "n": 11,
+        "top": {
+          "net shot": 0.455,
+          "push/rush": 0.455,
+          "lob": 0.091
+        }
+      }
+    },
+    "winners": {
+      "smash": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "smash": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      }
+    },
+    "conceded": {
+      "push/rush": 4,
+      "smash": 4,
+      "net shot": 1
+    }
+  },
+  "Ratchanok INTANON": {
+    "n_rallies": 48,
+    "n_strokes": 241,
+    "shot_mix": {
+      "net shot": 0.267,
+      "smash": 0.138,
+      "push/rush": 0.133,
+      "clear": 0.124,
+      "defensive return": 0.119
+    },
+    "attack_share": 0.271,
+    "replies": {
+      "clear": {
+        "n": 26,
+        "top": {
+          "clear": 0.423,
+          "drop": 0.269,
+          "smash": 0.269
+        }
+      },
+      "defensive return": {
+        "n": 24,
+        "top": {
+          "net shot": 0.333,
+          "push/rush": 0.25,
+          "lob": 0.208
+        }
+      },
+      "drop": {
+        "n": 24,
+        "top": {
+          "net shot": 0.583,
+          "push/rush": 0.25,
+          "lob": 0.167
+        }
+      },
+      "lob": {
+        "n": 35,
+        "top": {
+          "smash": 0.514,
+          "clear": 0.286,
+          "drop": 0.2
+        }
+      },
+      "net shot": {
+        "n": 36,
+        "top": {
+          "net shot": 0.361,
+          "lob": 0.333,
+          "push/rush": 0.306
+        }
+      },
+      "short service": {
+        "n": 16,
+        "top": {
+          "net shot": 0.688,
+          "push/rush": 0.312
+        }
+      },
+      "smash": {
+        "n": 33,
+        "top": {
+          "defensive return": 0.606,
+          "net shot": 0.303,
+          "drive": 0.061
+        }
+      }
+    },
+    "winners": {
+      "smash": 3,
+      "defensive return": 3,
+      "net shot": 2,
+      "drop": 2,
+      "push/rush": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 2,
+        "reasons": {
+          "out": 1,
+          "net": 1
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 8,
+        "reasons": {
+          "net": 5,
+          "out": 1,
+          "not over net": 2
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "net": 1,
+          "out": 1
+        }
+      },
+      "smash": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      }
+    },
+    "conceded": {
+      "smash": 3
+    }
+  },
+  "SHI Yuqi": {
+    "n_rallies": 76,
+    "n_strokes": 348,
+    "shot_mix": {
+      "net shot": 0.246,
+      "lob": 0.173,
+      "drop": 0.144,
+      "smash": 0.118,
+      "push/rush": 0.115
+    },
+    "attack_share": 0.233,
+    "replies": {
+      "clear": {
+        "n": 24,
+        "top": {
+          "smash": 0.417,
+          "drop": 0.375,
+          "clear": 0.208
+        }
+      },
+      "defensive return": {
+        "n": 26,
+        "top": {
+          "net shot": 0.308,
+          "push/rush": 0.308,
+          "lob": 0.231
+        }
+      },
+      "drive": {
+        "n": 14,
+        "top": {
+          "defensive return": 0.571,
+          "drive": 0.286,
+          "push/rush": 0.143
+        }
+      },
+      "drop": {
+        "n": 34,
+        "top": {
+          "net shot": 0.559,
+          "lob": 0.206,
+          "push/rush": 0.147
+        }
+      },
+      "lob": {
+        "n": 35,
+        "top": {
+          "drop": 0.4,
+          "smash": 0.4,
+          "clear": 0.171
+        }
+      },
+      "net shot": {
+        "n": 71,
+        "top": {
+          "lob": 0.479,
+          "net shot": 0.423,
+          "push/rush": 0.099
+        }
+      },
+      "push/rush": {
+        "n": 47,
+        "top": {
+          "drop": 0.404,
+          "smash": 0.277,
+          "clear": 0.191
+        }
+      },
+      "short service": {
+        "n": 39,
+        "top": {
+          "net shot": 0.487,
+          "push/rush": 0.359,
+          "lob": 0.154
+        }
+      },
+      "smash": {
+        "n": 21,
+        "top": {
+          "defensive return": 0.952,
+          "net shot": 0.048
+        }
+      }
+    },
+    "winners": {
+      "smash": 6,
+      "lob": 1,
+      "net shot": 1,
+      "drop": 1,
+      "push/rush": 1
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "net": 1,
+          "not over net": 2
+        }
+      },
+      "drop": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 1,
+        "reasons": {
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 11,
+        "reasons": {
+          "net": 8,
+          "out": 2,
+          "not over net": 1
+        }
+      },
+      "push/rush": {
+        "n": 3,
+        "reasons": {
+          "net": 1,
+          "out": 2
+        }
+      },
+      "smash": {
+        "n": 4,
+        "reasons": {
+          "out": 4
+        }
+      }
+    },
+    "conceded": {
+      "smash": 8,
+      "drop": 3,
+      "push/rush": 2,
+      "lob": 1,
+      "net shot": 1
+    }
+  },
+  "Sameer VERMA": {
+    "n_rallies": 39,
+    "n_strokes": 180,
+    "shot_mix": {
+      "smash": 0.198,
+      "net shot": 0.192,
+      "lob": 0.186,
+      "defensive return": 0.15,
+      "drop": 0.102
+    },
+    "attack_share": 0.257,
+    "replies": {
+      "clear": {
+        "n": 14,
+        "top": {
+          "smash": 0.643,
+          "drop": 0.214,
+          "clear": 0.071
+        }
+      },
+      "defensive return": {
+        "n": 30,
+        "top": {
+          "net shot": 0.333,
+          "lob": 0.2,
+          "push/rush": 0.2
+        }
+      },
+      "lob": {
+        "n": 33,
+        "top": {
+          "smash": 0.485,
+          "clear": 0.273,
+          "drop": 0.212
+        }
+      },
+      "long service": {
+        "n": 10,
+        "top": {
+          "smash": 0.5,
+          "clear": 0.3,
+          "drop": 0.2
+        }
+      },
+      "net shot": {
+        "n": 28,
+        "top": {
+          "lob": 0.643,
+          "net shot": 0.286,
+          "push/rush": 0.071
+        }
+      },
+      "short service": {
+        "n": 16,
+        "top": {
+          "net shot": 0.562,
+          "lob": 0.375,
+          "push/rush": 0.062
+        }
+      },
+      "smash": {
+        "n": 17,
+        "top": {
+          "defensive return": 1.0
+        }
+      }
+    },
+    "winners": {
+      "push/rush": 5,
+      "drop": 2,
+      "smash": 2
+    },
+    "errors": {
+      "clear": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "defensive return": {
+        "n": 3,
+        "reasons": {
+          "not over net": 2,
+          "net": 1
+        }
+      },
+      "drive": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "drop": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "lob": {
+        "n": 2,
+        "reasons": {
+          "out": 2
+        }
+      },
+      "net shot": {
+        "n": 3,
+        "reasons": {
+          "net": 1,
+          "out": 1,
+          "not over net": 1
+        }
+      },
+      "push/rush": {
+        "n": 2,
+        "reasons": {
+          "net": 1,
+          "out": 1
+        }
+      },
+      "smash": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      }
+    },
+    "conceded": {
+      "smash": 2,
+      "net shot": 1,
+      "push/rush": 1
+    }
+  },
+  "Supanida KATETHONG": {
+    "n_rallies": 39,
+    "n_strokes": 169,
+    "shot_mix": {
+      "net shot": 0.27,
+      "lob": 0.197,
+      "defensive return": 0.151,
+      "smash": 0.125,
+      "drop": 0.086
+    },
+    "attack_share": 0.204,
+    "replies": {
+      "clear": {
+        "n": 14,
+        "top": {
+          "drop": 0.357,
+          "smash": 0.286,
+          "clear": 0.286
+        }
+      },
+      "defensive return": {
+        "n": 14,
+        "top": {
+          "net shot": 0.571,
+          "push/rush": 0.214,
+          "lob": 0.143
+        }
+      },
+      "lob": {
+        "n": 25,
+        "top": {
+          "smash": 0.4,
+          "drop": 0.32,
+          "clear": 0.28
+        }
+      },
+      "net shot": {
+        "n": 40,
+        "top": {
+          "lob": 0.55,
+          "net shot": 0.4,
+          "push/rush": 0.05
+        }
+      },
+      "short service": {
+        "n": 19,
+        "top": {
+          "push/rush": 0.368,
+          "lob": 0.316,
+          "net shot": 0.316
+        }
+      },
+      "smash": {
+        "n": 23,
+        "top": {
+          "defensive return": 0.783,
+          "net shot": 0.13,
+          "drive": 0.087
+        }
+      }
+    },
+    "winners": {
+      "smash": 2,
+      "net shot": 2,
+      "drop": 1,
+      "lob": 1
+    },
+    "errors": {
+      "defensive return": {
+        "n": 4,
+        "reasons": {
+          "out": 1,
+          "net": 2,
+          "not over net": 1
+        }
+      },
+      "drive": {
+        "n": 2,
+        "reasons": {
+          "net": 2
+        }
+      },
+      "lob": {
+        "n": 1,
+        "reasons": {
+          "out": 1
+        }
+      },
+      "net shot": {
+        "n": 4,
+        "reasons": {
+          "net": 1,
+          "out": 3
+        }
+      },
+      "smash": {
+        "n": 3,
+        "reasons": {
+          "out": 3
+        }
+      }
+    },
+    "conceded": {
+      "net shot": 3,
+      "smash": 3,
+      "push/rush": 2,
+      "drop": 1
+    }
+  },
+  "Viktor AXELSEN": {
+    "n_rallies": 402,
+    "n_strokes": 2103,
+    "shot_mix": {
+      "lob": 0.252,
+      "net shot": 0.249,
+      "smash": 0.136,
+      "defensive return": 0.13,
+      "push/rush": 0.096
+    },
+    "attack_share": 0.232,
+    "replies": {
+      "clear": {
+        "n": 125,
+        "top": {
+          "smash": 0.584,
+          "clear": 0.2,
+          "drop": 0.184
+        }
+      },
+      "defensive return": {
+        "n": 194,
+        "top": {
+          "lob": 0.335,
+          "net shot": 0.325,
+          "push/rush": 0.273
+        }
+      },
+      "drive": {
+        "n": 81,
+        "top": {
+          "defensive return": 0.506,
+          "drive": 0.321,
+          "net shot": 0.086
+        }
+      },
+      "drop": {
+        "n": 241,
+        "top": {
+          "net shot": 0.747,
+          "lob": 0.154,
+          "push/rush": 0.091
+        }
+      },
+      "lob": {
+        "n": 249,
+        "top": {
+          "smash": 0.542,
+          "drop": 0.245,
+          "clear": 0.124
+        }
+      },
+      "long service": {
+        "n": 13,
+        "top": {
+          "smash": 0.923,
+          "drop": 0.077
+        }
+      },
+      "net shot": {
+        "n": 480,
+        "top": {
+          "lob": 0.644,
+          "net shot": 0.235,
+          "push/rush": 0.113
+        }
+      },
+      "push/rush": {
+        "n": 130,
+        "top": {
+          "smash": 0.254,
+          "drive": 0.223,
+          "defensive return": 0.208
+        }
+      },
+      "short service": {
+        "n": 183,
+        "top": {
+          "net shot": 0.432,
+          "lob": 0.344,
+          "push/rush": 0.208
+        }
+      },
+      "smash": {
+        "n": 201,
+        "top": {
+          "defensive return": 0.851,
+          "net shot": 0.139,
+          "lob": 0.01
+        }
+      }
+    },
+    "winners": {
+      "smash": 42,
+      "push/rush": 12,
+      "net shot": 7,
+      "drop": 3,
+      "lob": 3
+    },
+    "errors": {
+      "clear": {
+        "n": 6,
+        "reasons": {
+          "unknown": 1,
+          "out": 5
+        }
+      },
+      "defensive return": {
+        "n": 24,
+        "reasons": {
+          "not over net": 10,
+          "net": 6,
+          "out": 8
+        }
+      },
+      "drive": {
+        "n": 6,
+        "reasons": {
+          "unknown": 1,
+          "net": 1,
+          "not over net": 2,
+          "out": 2
+        }
+      },
+      "drop": {
+        "n": 3,
+        "reasons": {
+          "net": 3
+        }
+      },
+      "lob": {
+        "n": 26,
+        "reasons": {
+          "out": 25,
+          "net": 1
+        }
+      },
+      "net shot": {
+        "n": 29,
+        "reasons": {
+          "out": 6,
+          "net": 18,
+          "not over net": 5
+        }
+      },
+      "push/rush": {
+        "n": 12,
+        "reasons": {
+          "out": 12
+        }
+      },
+      "smash": {
+        "n": 20,
+        "reasons": {
+          "out": 13,
+          "net": 7
+        }
+      }
+    },
+    "conceded": {
+      "smash": 27,
+      "push/rush": 14,
+      "drop": 7,
+      "net shot": 4,
+      "lob": 4
+    }
+  }
+}
