@@ -1,0 +1,9 @@
+numpy
+pandas>=2.2,<3   # pandas 3 Copy-on-Write breaks ShuttleNet's chained assignment
+scikit-learn
+torch
+matplotlib
+streamlit
+google-genai
+python-dotenv
+pyyaml

@@ -1,0 +1,46 @@
+# ===== Secrets (never commit) =====
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+credentials*.json
+service_account*.json
+
+# ===== Third-party data & code (download with scripts/setup_data.sh) =====
+data/raw
+data/processed
+third_party/*
+!third_party/README.md
+
+# ===== Model weights & training outputs =====
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+model/
+checkpoints/
+runs/
+wandb/
+
+# ===== Large media (host demo video elsewhere, e.g. YouTube unlisted) =====
+*.mp4
+*.mov
+*.avi
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ===== Jupyter / Colab =====
+.ipynb_checkpoints/
+
+# ===== OS / editor =====
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+.idea/
